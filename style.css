@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+
+  margin: 0;
+
+  font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 512px 16px 512px;
+    background-color: #1f2937;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.left-links {
+    font-size: 24px;
+}
+
+.left-links img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.right-links {
+    font-size: 18px;
+    display: flex;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 512px 150px 512px;
+    background-color: #1f2937;
+}
+
+.header-content h1, p{
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    color: #f9faf8;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.box h1{
+    width: 250px;
+}
+
+.box p {
+    width: 400px;
+}
+
+img {
+    width: 400px;
+    height: 229.875px;
+}
+
+.info {
+    text-align: center;
+    margin-top: 20px; 
+  }
+  
+  .info h1 {
+    margin-bottom: 20px; 
+  }
+  
+  .info-item {
+    display: inline-block; 
+    margin: 0 20px; 
+  }
+  
+  .info img {
+    width: 150px;
+    height: 150px;
+    display: block; 
+    margin-bottom: 10px; 
+    transition: transform 0.3s ease; 
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+  }
+  
+  .info-item p {
+    color: #636364; 
+  }
+  
+  .info img:hover {
+    transform: scale(1.1);
+  }
+
+  .quote {
+    background-color: #e5e7eb;
+    text-align: center;
+    padding: 150px;
+  }
+
+  .quote q {
+    font-size: 36px;
+    font-family: 'YourLightItalicFont', sans-serif !important;
+    font-style: italic;
+    font-weight: lighter; 
+    color: #1f2937;
+  }
+
+  .quote footer {
+    text-align: right;
+  }
+
+  .sign-up {
+    background-color: #3882F6;
+    text-align: left;
+    padding: 40px 120px 40px 120px;
+    margin: 50px auto;
+    max-width: 400px; 
+    border-radius: 5px;
+    display: block;
+    justify-content: space-between;
+  }
+  
+  .sign-up h1 {
+    color: white;
+  }
+  
+  .sign-up p {
+    color: white;
+  }
+  
+  .sign-up button {
+    background-color: #f9faf8;
+    border: none;
+    border-radius: 5px;
+    color: #3882F6;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+
+  
+  
+  
+  
